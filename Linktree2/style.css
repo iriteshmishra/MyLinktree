@@ -1,0 +1,256 @@
+body {
+    background-image: linear-gradient(to right, orange , white);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: blue;    
+
+}
+
+li {
+    float: left;
+}    
+
+li a{
+    display: block;
+    color: red;
+    text-align:center;
+    padding: 13px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: lightgreen;
+}
+
+h1{
+    text-align: center;
+}
+
+hr {
+    color: #2c2929;
+    width: 600px;
+    height: 1px solid;
+}
+.profileimage {
+    border-radius: 50%;
+}
+.profileimagecontainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+    box-shadow: 0 0 30px 1px rgba(0, 140, 186, 0.5);
+}
+
+@media (max-width: 1045px){
+li a{
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+}}
+
+hr {
+    width: 600px;
+    border: 10px solid green;
+    border-radius: 5px;
+}
+
+button {
+    justify-items: auto;
+    width: 160px;
+    height: 50px;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 20px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.socials {
+    display: inline-block;
+}
+
+.mysocials {
+    background-image: linear-gradient(to right, orange , white);
+    padding: 20px;
+}
+
+.myportfolio {
+    margin-left: 2px;
+}
+
+.myprojects {
+    background-image: linear-gradient(to right, orange , white);
+    padding: 20px;
+}
+
+.riteshmishra{
+    width: 200px;
+}
+
+.Twitter {
+    background-color: #1DA1F2;
+}
+
+.Linkedin {
+    background-color: #0A66C2;
+}
+
+.Instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.Github {
+    background-color: #151515;
+}  
+
+.Youtube {
+    background-color: RGB(255, 0, 0);
+}
+
+.Emailid {
+    background-color: rgb(225, 187, 138)
+}
+
+.PayPal {
+    background-color: #0a65c1;
+}
+
+.Linktree {
+    background-color: rgb(147, 236, 147);
+}
+
+.Devpost {
+    background-color: rgb(26, 62, 74);
+}
+
+.BuyMeACoffee {
+    background-color: rgb(245, 245, 8);
+}
+.Fiverr {
+    background-color: rgb(7, 143, 7);
+}
+.Gumroad {
+    background-color: rgb(243, 114, 136);
+}
+.Medium {
+    background-color: #000;
+}
+.Hashnode {
+    background-color: #0a65c1;
+}
+.portfolio {
+    background-image: linear-gradient(to right, green , yellow);
+}
+.Hackerrank {
+    background-image: linear-gradient(to right, white , green);
+}
+.Codechef {
+    background-color: rgb(166, 10, 10);
+}
+.Leetcode {
+    background-image: linear-gradient(to right, #000 , rgb(229, 165, 45), white);;
+}
+
+pre {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    li a{
+        display: block;
+        color: red;
+        text-align: center;
+        padding: 13px 16px;
+        text-decoration: none;
+    }
+    
+    hr {
+        width: 300px;
+    }
+    .profileimage {
+        height: 180px;
+        width: 180px;
+    }
+    body {
+        height: 75%;
+    }
+}
+
+
+@media screen and (max-width: 462px){
+    li a{
+        display: block;
+        color: red;
+        text-align: center;
+        padding: 13px 16px;
+        text-decoration: none;
+    }
+    
+    hr {
+        width: 200px;
+    }
+    pre {
+        font-size: medium;
+    }
+    h1{
+        font-size: medium;
+    }
+    h2{
+        font-size: medium;
+    }
+    .profileimage {
+        height: 170px;
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 330px) and (min-width: 60px){
+    li a{
+        display: block;
+        color: red;
+        text-align: center;
+        padding: 6px 9px;
+        text-decoration: none;
+    }
+    
+    hr {
+        width: 80px;
+    }
+    pre {
+        font-size: small;
+    }
+    h1{
+        font-size: small;
+    }
+    h2{
+        font-size: small;
+    }
+    .profileimage {
+        height: 150px;
+        width: 150px;
+    }
+    body {
+        height: 50%;
+    }
+}
+
